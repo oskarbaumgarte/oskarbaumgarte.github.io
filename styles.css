@@ -1,0 +1,49 @@
+#header {
+
+ font-size: 50px;
+ font-family = "Inconsolata";
+ color: white;
+ background: rgb(148, 0, 255);
+ text-align: right;
+ padding-right: 20px;
+}
+#home:hover{
+  background: rgb(50, 0, 50);
+}
+#home {
+  color:white;
+  text-decoration: none;
+
+}
+
+.headerButton{
+  floater: right;
+  color : white;
+  text-decoration: none;
+  margin-left: 40px;
+
+}
+.headerButton:hover {
+  background: rgb(50, 0, 50);
+}
+
+.blogPost {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  background:gold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-align: center;
+}
+.blogPost > h1 {
+  font-family: "Dosis";
+}
+.blogPost > p {
+  margin: 20px;s
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("shavings.jpg");
+}
